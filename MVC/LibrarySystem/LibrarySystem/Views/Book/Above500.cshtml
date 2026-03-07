@@ -1,0 +1,26 @@
+﻿@model List<LibrarySystem.Models.Book>
+
+<h2>Books Above ₹500</h2>
+
+<a href="/Book/Index" class="btn btn-secondary mb-2">Back</a>
+
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var b in Model)
+        {
+            <tr>
+                <td>@b.Name</td>
+                <td>@b.Author</td>
+                <td>₹@b.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
