@@ -1,0 +1,21 @@
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Rahul', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Aman', 'Football');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Priya', 'Tennis');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Karan', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Neha', 'Football');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Riya', 'Tennis');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Arjun', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Meera', 'Football');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Vikram', 'Tennis');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Ankit', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Sonia', 'Football');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Rohit', 'Tennis');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Pooja', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Manish', 'Football');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Divya', 'Tennis');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Harsh', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Sneha', 'Football');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Kavya', 'Tennis');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Deepak', 'Cricket');
+INSERT INTO dbo.PunjabSportss (Name, SportName) VALUES ('Isha', 'Football');
+select * from [dbo].[PunjabSportss]

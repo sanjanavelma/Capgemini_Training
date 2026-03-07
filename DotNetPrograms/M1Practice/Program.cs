@@ -250,24 +250,56 @@
 //         }
 //     }
 // }
+// using System;
+// using System.Collections.Generic;
+// using System.Text;
+// class Program
+// {
+//     static void Main()
+//     {
+//         Console.WriteLine("Enter the no of codes: ");
+//         int n = int.Parse(Console.ReadLine());
+//         Console.WriteLine("Enter the codes: ");
+//         string[] code;
+//         for(int i = 0; i < n; i++)
+//         {
+//             code.Append(Console.ReadLine());
+//         }
+//         foreach(var v in code)
+//         {
+//             Console.WriteLine(StringValidation.Validate(v));
+//         }
+//     }
+// }
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Collections;
 class Program
 {
     static void Main()
     {
-        Console.WriteLine("Enter the no of codes: ");
+        LibraryManager l = new LibraryManager();
         int n = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter the codes: ");
-        string[] code;
         for(int i = 0; i < n; i++)
         {
-            code.Append(Console.ReadLine());
-        }
-        foreach(var v in code)
-        {
-            Console.WriteLine(StringValidation.Validate(v));
+            string[] input = Console.ReadLine().Split();
+            if(input[0] == "ADD")
+            {
+                l.addMember(input[1]);
+            }
+            else if(input[0] == "IMPOSE")
+            {
+                long amount = int.Parse(input[2]);
+                l.imposeFine(input[1], amount);
+            }
+            else if(input[0] == "PAY")
+            {
+                long amount1 = int.Parse(input[2]);
+                l.payFine(input[1], amount1);
+            }
+            else if (input[0] == "DETAILS")
+            {
+                l.getDetails(input[1]);
+            }
         }
     }
 }
