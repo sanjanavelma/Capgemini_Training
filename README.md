@@ -1,6 +1,6 @@
-# Capgemini Training – C# & .NET Practice
+# C# & .NET Practice
 
-This repository contains all the assignments, practice programs, and learning exercises completed during my **Capgemini Training Program**.  
+This repository contains all the assignments, practice programs, and learning exercises completed during my **.NetTraining Program**.  
 It includes hands-on coding work covering C#, OOP concepts, .NET fundamentals, exception handling, collections, file handling, and more.
 
 ---
@@ -24,4 +24,4 @@ It includes hands-on coding work covering C#, OOP concepts, .NET fundamentals, e
 ## 🚀 How to Run the Programs
 1. Clone the repository  
    ```bash
-   git clone https://github.com/sanjanavelma/Capgemini_Training.git
+   git clone https://github.com/sanjanavelma/Dotnet_training.git
